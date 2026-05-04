@@ -1,1 +1,1337 @@
-local ta,hc,_d=(string.char),(string.byte),(bit32 .bxor)local Ig=function(Ag,pe)local D=''for b_=653400/8712,(#Ag-27143/27143)+-0.007054839619979306*-10631 do D=D..ta(_d(hc(Ag,(b_-0.015222244773695961*4927)+(13147+-13146)),hc(pe,(b_-(-3540- -3615))%#pe+(-653- -654))))end return D end if identifyexecutor()~=Ig('a,\142O%\155',',M\250')then notify(Ig('\233\6\57\240\231\173\16j\156\2\184\191\216\v)\165\235\167\16z\201;\182\185','\187cH\133\142\223u\25\188O\217\203'),Ig('\217\226\238\255\238','\156\144'),-2679+2684)return end setrobloxinput(true)local xa,me,Ta,bd,ng,Ja,ge,Vb,yg,Tf,Af,la,m,te,ja,Oe,na,uc,ac={maxWaitTime=0.00068296680781314029*14642,updateRate=-89.129999999999995/-2971},game.GetService(game,Ig('\244\194\20\167\208\221\a\175\198','\163\173f\204')),{},{},nil,{},setmetatable({},{__mode=Ig('\172','\199')}),setmetatable({},{__mode=Ig('p','\27')}),setmetatable({},{__mode=Ig('\206','\165')}),{x=nil,y=nil,z=nil},{x=0.079776625448743518*5014,y=15737+-15237,z=-8520400/-21301},pcall,pairs,ipairs,Color3 .fromRGB,Vector2 .new,Vector3 .new,Drawing and Drawing.new,WorldToScreen local function ee(Pf,Kf,U)if not Pf then return end la(function()Pf.lookAt(Pf,Kf,U)end)end la(function()setmetatable(Ta,{__mode=Ig('\200','\163')});setmetatable(Ja,{__mode=Ig('\139','\224')})end)local o_={{-10896+10897,-43832/-21916},{-3.2160545442850713e-05*-31094,-21202+21205},{-19630- -19632,-0.00025265285497726126*-15832},{-19536- -19539,-23801- -23805},{5265-5260,13790-13784},{-8234- -8239,8442+-8435},{-0.00020508613617719443*-29256,-4686+4694},{-0.00069334389857369258*-10096,22845-22837},{23891/23891,9257+-9252},{-0.00013496187327080101*-14819,8521-8515},{21616-21613,-28327+28334},{-11898+11902,0.00026747801665050652*29909}}local function ma(xf,Kc)Kc=Kc or Ig('o\177i\161l','+\244');print(Ig('\201','\146')..Kc..Ig('9D','d')..tostring(xf))end local function vb(kd,Kd)if UI.GetValue(Ig('\247IO\161\130\204AB\176\128','\147,-\212\229'))then notify(kd,Kd or Ig('jHLXI','.-'),-15212/-15212)end end local function Va(L)if not(not L)then else return nil end local gb,ze,df=la(function()return ac(L)end)if not(not gb or not ze or not df)then else return nil end return ze end local function cb(J,Eg)if not(not J or not Eg)then else return{}end local Pa,Sa,Ye=Eg.X/(18367+-18365),Eg.Y/(-0.0025641025641025641*-780),Eg.Z/(14981-14979)return{Vector3 .new(J.X-Pa,J.Y-Sa,J.Z-Ye),Vector3 .new(J.X+Pa,J.Y-Sa,J.Z-Ye),Vector3 .new(J.X-Pa,J.Y+Sa,J.Z-Ye),Vector3 .new(J.X+Pa,J.Y+Sa,J.Z-Ye),Vector3 .new(J.X-Pa,J.Y-Sa,J.Z+Ye),Vector3 .new(J.X+Pa,J.Y-Sa,J.Z+Ye),Vector3 .new(J.X-Pa,J.Y+Sa,J.Z+Ye),Vector3 .new(J.X+Pa,J.Y+Sa,J.Z+Ye)}end local function Bg(rd)if not rd or not rd.Parent then return nil end local Gc=ge[rd]if Gc and Gc.Parent and Gc.IsA(Gc,Ig('\164\20t;\182\20u*','\230u\a^'))then return Gc end local sf=nil;la(function()local Ad=rd.FindFirstChild(rd,Ig('\16\15\162#7\30\179\50','Xf\214A'))if Ad and Ad.Parent then local xe=Ad.FindFirstChild(Ad,Ig('\161\128\157','\233'))if xe and xe.Parent then local W=xe.FindFirstChild(xe,Ig('d\163Z\167','*\194'))or xe.FindFirstChild(xe,Ig('\227>\253:','\141_'))if W and W.Parent and W.IsA(W,Ig('\203\198\182\f\217\198\183\29','\137\167\197i'))then sf=W return end end end for Xc,Te in te(rd.GetDescendants(rd))do if Te and Te.Parent and Te.IsA(Te,Ig('\0N\180\48\18N\181!','B/\199U'))then local sd=Te.Name.lower(Te.Name)if sd==Ig('|\200b\204','\18\169')or sd.find(sd,Ig('\31,\1(','qM'))or sd.find(sd,Ig('\164\223\169\209','\202\186'))then sf=Te break end end end end)if not(sf)then else ge[rd]=sf end return sf end local function mf(Od,Jb,Pc,Ib)if not Od or not Od.Parent then return end la(function()Od.Size=Vector3 .new(Jb,Pc,Ib);Od.CanCollide=true end)end local function da(Ie)if not Ie or not Ie.Parent then return false end if Ta[Ie]then return false end local Ee=Ie.FindFirstChild(Ie,Ig('\191\173Y\24\153\183]\29','\247\216\52y'))if not(not Ee or Ee.Health<=0)then else return false end local Tc=Bg(Ie)if not Tc then return false end la(function()Ta[Ie]=true;Vb[Ie]=Tc.Size;ma(Ig('\152g\231\197\252\3\175p\229\200\181W','\202\2\128\172\143w')..Ie.Name,Ig('\182\19\168\23','\248R'));vb(Ig('\191J\192\211Rc\136]\194\222\27\55','\237/\167\186!\23')..Ie.Name,Ig('!;\14:','hU'))if not(UI.GetValue(Ig('\187\57\154\22\134 i\182>\143\22\133=R','\211P\238t\233X6')))then else mf(Tc,Af.x,Af.y,Af.z)end Ie.Destroying.Once(Ie.Destroying,function()Ta[Ie]=nil;Vb[Ie]=nil end)end)return true end local function Ga()if not(not uc)then else return{}end local nd,e_,Ne,Ke,gg={},(UI and UI.GetValue and UI.GetValue(Ig('\202\223\217/\155\192\192\198\2\167\221','\175\172\169p\248')))or 0,(UI and UI.GetValue and UI.GetValue(Ig('\155\215\218\217\196\145\200\197\244\248\153','\254\164\170\134\167')))or-19227+19482,(UI and UI.GetValue and UI.GetValue(Ig('\229\228\25\173t\239\251\6\128H\226','\128\151i\242\23')))or 0,(UI and UI.GetValue and UI.GetValue(Ig('\129Q\29\24\150\170\141A\6)\135\177\151','\228\"mG\226\194')))or-29386/-14693 for ef=-0.079519006982156706*-2578,(-28216- -28228)+829260/4065 do local Df,Da=la(uc,Ig('\151T\181X','\219='))if not(Df and Da)then else la(function()Da.Color=ja(e_,Ne,Ke);Da.Thickness=gg;Da.Visible=false end);nd[(ef- -0.00733628223109289*-27807)]=Da end end return nd end local function ag(Dg,jg,_b,Qe,rf,ie,gd)if not Dg or not jg or not jg.Parent then return end la(function()local Ae,tb=jg.Position,jg.Size if not(not Ae or not tb)then else return end local Fb=cb(Ae,tb)if not(#Fb==0)then else return end local Hc={}for X,k in te(Fb)do Hc[X]=Va(k)end for Ra,dc in te(o_)do local sb,Xa,n_=Hc[dc[15218-15217]],Hc[dc[24043+-24041]],Dg[Ra]if not(not n_)then else continue end if not(sb and Xa)then la(function()n_.Visible=false end)else if not(Qe and rf and ie)then else la(function()n_.Color=ja(Qe,rf,ie)end)end if not(gd)then else la(function()n_.Thickness=gd end)end n_.From=Oe(sb.X,sb.Y);n_.To=Oe(Xa.X,Xa.Y);n_.Visible=_b end end end)end local function ub(Ca)if not Ca or not Ca.Parent then return end if not(bd[Ca])then else return end local Ub=Ga()if not Ub or#Ub==0 then return end bd[Ca]={model=Ca,lines=Ub}end local function s_(Ha)local cc=bd[Ha]if not cc or not cc.lines then return end for ud,Qc in te(cc.lines)do if Qc then la(function()Qc.Remove(Qc)end)end end bd[Ha]=nil end local function pa()for R,Cg in m(bd)do if not(not Cg or not Cg.model)then else s_(R)continue end if not R or not R.Parent then s_(R)continue end la(function()local fb=R.FindFirstChild(R,Ig('\248\156\206\157\222\134\202\152','\176\233\163\252'))if not(not fb or fb.Health<=0)then else s_(R)return end local uf=Bg(R)if not uf or not uf.Parent then s_(R)end end)end end local function be()pa()local V,Of,wf,ia,Je=true,nil,nil,nil,nil local sa,cf=la(function()return UI.GetValue(Ig('\179\225\250%]\184\243\232\22]\178','\214\146\138z8'))end)if not(sa)then else V=cf end if not(V)then else local yc,ha=la(function()return UI.GetValue(Ig('a\244\r\247(k\235\18\218\20v','\4\135}\168K'))end)local Vf,Yf=la(function()return UI.GetValue(Ig('\6\21\17\181\172\f\n\14\152\144\4','cfa\234\207'))end)local ba,l_=la(function()return UI.GetValue(Ig('\15\213\192\224\135\5\202\223\205\187\b','j\166\176\191\228'))end)local Rf,mc=la(function()return UI.GetValue(Ig('\21qj\241.\246\25aq\192?\237\3','p\2\26\174Z\158'))end);Of=yc and ha or 0;wf=Vf and Yf or-779790/-3058;ia=ba and l_ or 0;Je=Rf and mc or-9561- -9563 end if not V then for Y,Ya in m(bd)do if Ya and Ya.lines then for d_,fg in te(Ya.lines)do if fg then la(function()fg.Visible=false end)end end end end return end for G,zb in m(bd)do if not(not zb or not zb.model or not zb.lines)then else continue end la(function()if G and G.Parent then local u_=Bg(G)if u_ and u_.Parent then ag(zb.lines,u_,V,Of,wf,ia,Je)end end end)end end local function Gg()local aa,he,Fe=UI.GetValue(Ig('o\b\31\20\180\243X\18\2\f\190\212\127','\aakv\219\139'))or-0.30349013657056145*-1318,UI.GetValue(Ig('\227.d[K\31\212\52yCA8\242','\139G\16\57$g'))or 26954+-26454,UI.GetValue(Ig('\251\r\163{\235J\204\23\190c\225m\233','\147d\215\25\132\50'))or 18126+-17726;Af.x=aa;Af.y=he;Af.z=Fe local We={}for Q,Eb in m(Ta)do We[Q]=true end for M,y in m(Ja)do We[M]=true end for og,ke in m(We)do la(function()if not(og and og.Parent)then Ja[og]=nil;Ta[og]=nil;Vb[og]=nil;yg[og]=nil else local wg=og.FindFirstChildOfClass(og,Ig('K\151\tBm\141\rG','\3\226d#'))if not wg or wg.Health<=0 then Ja[og]=nil;Ta[og]=nil;Vb[og]=nil;yg[og]=nil return end local Rb=Bg(og)if not(Rb and Rb.Parent)then else if yg[og]then return end if not(UI.GetValue(Ig('\25\184\247k\181@\132\20\191\226k\182]\191','q\209\131\t\218\56\219')))then local rb=Vb[og]if rb then la(function()Rb.Size=rb end)end else mf(Rb,aa,he,Fe)end end end end)end end local function Xf()ma(Ig('\4\a\243\183\137\194\140\135&\194D:@)\172!\a\134\53I\223\187\148\198\142\138\57\217\nv@$\150\5K\199c','Mi\154\195\224\163\224\238\\\171*]\96a\197Ue\233'),Ig('P\bP\18','\25F'))if not(not me)then else ma(Ig('\157\14c\199\249[|\170\159\186\161\57\190Ap\218\235Bq\168\152\246\170w','\202a\17\172\138+\29\201\250\154\207V'),Ig('\182\194\161\223\161','\243\144'))return end ng=me.FindFirstChild(me,Ig('\169\28\217\156\27\222','\253u\173'))if not ng then ng=me.WaitForChild(me,Ig('\162\r&\151\n!','\246dR'),xa.maxWaitTime)end if not(not ng)then else ma(Ig("\153\177\179\166\210\228a,C\96\200\237\191\248\169\168\200\183\'%Yb\200\169",'\205\216\199\199\188\151AJ,\f\172\136'),Ig('n\6y\27y','+T'));vb(Ig('AMl\133\26\55\16\247\\b\134pV8\138\27\48\16\247\\{\140q','\21$\24\228tD0\145\51\14\226'),Ig('\t\96>}>','L\18'))return end local function qb(Bc)if not(not Bc or not Bc.Parent)then else return end Ja[Bc]=true;da(Bc);ub(Bc);la(function()Bc.Destroying.Once(Bc.Destroying,function()Ja[Bc]=nil;Ta[Bc]=nil end)end)end la(function()for md,Lf in te(ng.GetChildren(ng))do qb(Lf)end end);la(function()ng.ChildAdded.Connect(ng.ChildAdded,qb)end);ma(Ig('\210\31\165\22\0\230B\182\234v\138\208\244\31\236\1\6\234^\179\245c\155\152','\155q\204bi\135.\223\144\23\254\185'),Ig('_\207_\213','\22\129'));notify(Ig('\219\20\247%+\215\162\130\146\237\174\140\219\246\15\163ld\234\209\151\202\203\174\131\219\234','\147}\131GD\175\130\199\234\153\203\226\191'),Ig('\ra\6=q\22-','^\20e'),-9.7254190034687328e-05*-30847)end UI.AddTab(Ig('\188I.>\243\169i\21\0\160','\253\6zl\211'),function(wb)local Ka=wb.Section(wb,Ig('\173[\141f\185\172\5\160J\141a\184\176@\151','\229\50\249\4\214\212%'),Ig('\235\193\193\208','\167\164'));Ka.Toggle(Ka,Ig('2\213\24d\6p\30?\210\rd\5m%','Z\188l\6i\bA'),Ig('\218\172\166\253\174\162\251','\159\194\199'),false);Ka.Tip(Ka,Ig("\159\220\t\246=\6~\134\178Z\153\49\196\249\254\23\194\168\191\146\0\253%\1>\154\251L\128\'\205\242\173\16\204\182",'\218\178h\148QcQ\226\219)\248S\168\156\222y\163\216'))local Ze=Ka.Keybind(Ka,Ig('\165l03\162}\27:\175','\205\5DQ'),-3390- -3462,Ig('\212bk\199ai','\160\r\f'));Ze.AddToHotkey(Ze,Ig('\191 \203\149&\199','\247I\191'),Ig('\228RB\162Oey\233UW\162LxB','\140;6\192 \29&'));Ka.SliderInt(Ka,Ig('\30\223&\197\238\219)\197;\221\228\252\14','v\182R\167\129\163'),Ig('Br\155t;\185','\17\27\225'),-8769+8869,13950000/13950,7645600/19114);Ka.SliderInt(Ka,Ig('\214\187jP\128M\225\161wH\138j\199','\190\210\30\50\239\53'),Ig('\20\135\135\"\206\164','G\238\253'),5339-5239,6101000/6101,-29301- -29801);Ka.SliderInt(Ka,Ig('\204\162T&\a\157\251\184I>\r\186\222','\164\203 Dh\229'),Ig('s\164\127E\237_',' \205\5'),0.0040536705987271474*24669,-17367+18367,0.016336532570961813*24485)local Oa=wb.Section(wb,Ig('_IJ','\26'),Ig('\167e\146d\129','\245\f'));Oa.Toggle(Oa,Ig('\241\189A\147\157\250\175S\160\157\240','\148\206\49\204\248'),Ig('\199\28\3\224\30\a\230','\130rb'),false);Oa.Tip(Oa,Ig('!HYf\233\26\169\142\223\193\21g\23\143\249\139LDDWq\235\27\239\132\209\146\22j\3\202\156\235X','d&8\4\133\127\134\234\182\178t\5{\234\217\184\b'))local jd=Oa.Keybind(Oa,Ig('\225\238\194\219\246\208','\132\157\178'),-1956012/-28348,Ig('\178g\240\161d\242','\198\b\151'));jd.AddToHotkey(jd,Ig('V@C','\19'),Ig('\243\215\225\242l\248\197\243\193l\242','\150\164\145\173\t'));Oa.SliderInt(Oa,Ig('\203\218\31\248\173\193\197\0\213\145\220','\174\169o\167\206'),Ig('\3\52\53','Q'),0,-2279- -2534,0);Oa.SliderInt(Oa,Ig('s\208\54}\138y\207)P\182q','\22\163F\"\233'),Ig('\248s\218d\209','\191\1'),0,-0.015290519877675841*-16677,-5537+5792);Oa.SliderInt(Oa,Ig("-\159\5\138\166\'\128\26\167\154*",'H\236u\213\197'),Ig('\255\155\200\146','\189\247'),0,10261-10006,0);Oa.SliderInt(Oa,Ig('\a\242\203\134\136\203\v\226\208\183\153\208\17','b\129\187\217\252\163'),Ig('\180\251\127\18\20\202D\145\241z\25Q\237_','\248\146\17w4\158,'),-158- -159,148650/14865,6367+-6365)local le=wb.Section(wb,Ig('G\217a\201d','\3\188'),Ig('Ggrfa','\21\14'));le.Toggle(le,Ig('\223\173I|\247\228\165Dm\245','\187\200+\t\144'),Ig('$\22\17\181w@>\28\164u','\96ss\192\16'),false);le.Tip(le,Ig('\16\133\2a\187n\203r-\198\254\213,\153\4p\242i\207d1\206\176\200','C\237m\22\155\n\174\16X\161\222\187'))local Oc=wb.Section(wb,Ig('\247\213\224\2\208\193\230\0','\182\160\148m'),Ig('\203x\225i','\135\29'));Oc.Toggle(Oc,Ig("\31\233\128\54#\203\145\3!\249\154\56\'\198\134\n",'~\156\244YE\170\227n'),Ig('\238\164\48\201\166\52\207','\171\202Q'),false);Oc.Tip(Oc,Ig('\152\199\186\161\20\\\161o\139\19\136\137\a<\26\53\153\26\57\176\200\175\170\27\25\250b\150\1\135\203\r\56H9\133\0\49','\221\169\219\195x9\142\v\226\96\233\235kY:T\236nV'))local ka=Oc.Keybind(Oc,Ig('\208q\0\244\128\208v\25\196\141\211','\177\4t\155\230'),-1052595/-23391,Ig('\28?a\15<c','hP\6'));ka.AddToHotkey(ka,Ig('\160\22\173\216\135\2\171\218','\225c\217\183'),Ig('\127x\206\129\194\184\138=Ah\212\143\198\181\157\52','\30\r\186\238\164\217\248P'));Oc.SliderFloat(Oc,Ig(';\135\171\253\255\52\139\171\240\217','P\238\199\145\160'),Ig('\151B\176g\194o0R\29\164B\185h\155\4\27[\5\160',"\211\'\220\6\187Or7i"),-8474.5- -8475,6825+-6820,8.3118610256836505e-05*12031);Oc.Tip(Oc,Ig('+LO\212]2\n\247=C\144\183$o\176\191\178\196[\15LI\213\19=\16\187%E\222\167er\173\235\177\207\\','x),\187\51Vy\215I,\176\192E\6\196\159\208\161/'));Oc.SliderInt(Oc,Ig('\v\172\213q\20\172\195I\3','f\205\173.'),Ig('k\166\213\250\169\152:\202E\175\141\136\155\147<\221','&\199\173\218\250\253[\184'),-0.018649757553151809*-5362,2.5799793601651189*3876,-5346- -10346);Oc.Tip(Oc,Ig('\192!\24B\161L\197\174&3\220\18\151\159\a\212\199{\226\96\19N\173K\203\230b<\192\20\214\133\r\197\134a\254','\141@\96+\204\57\168\142BZ\175f\246\241d\177\231\15'));Oc.SliderInt(Oc,Ig('\30\136Uz\221\163\224o\135V2\v\159Nm\228\170\247k\191V/','\127\253!\21\187\194\146\2\216>['),Ig('d\215\139\253\153\18\f\246\154\246\145\2X',',\190\255\159\246j'),8738+-8708,-22996+23996,8340500/16681);Oc.Tip(Oc,Ig('\239\50\20\27\231#\175\247~\184\244\165\133\214\172\131^\184\200/]\t\252\50\235\184z\225\160\172\149\130\171\140K\168\202','\167W}|\143W\143\152\24\152\128\205\224\246\196\234*\218'))local vg=wb.Section(wb,Ig('\136\24E\160\20_\186','\201{1'),Ig('\252\189\214\172','\176\216'));vg.Button(vg,Ig('b\3\147\55\162\239KU\18\148;\184\168k','0f\224R\214\207\24'),function()UI.SetValue(Ig('g?N{\16|\156j8[{\19a\167','\15V:\25\127\4\195'),false);UI.SetValue(Ig('w\137\201l\171{@\147\212t\161\\g','\31\224\189\14\196\3'),0.049212598425196853*8128);UI.SetValue(Ig('\238\137\\\27\223\4\217\147A\3\213#\255','\134\224(y\176|'),0.89766606822262118*557);UI.SetValue(Ig('\162ID\1\30\149\149SY\25\20\178\176','\202 0cq\237'),4276-3876);UI.SetValue(Ig('\211.i\141j\216<{\190j\210','\182]\25\210\15'),false);UI.SetValue(Ig('\143X\190\164\137\133G\161\137\181\152','\234+\206\251\234'),0);UI.SetValue(Ig('\28\22\155\5\r\22\t\132(1\30','ye\235Zn'),-7675- -7930);UI.SetValue(Ig('Od\128\153\232E{\159\180\212H','*\23\240\198\139'),0);UI.SetValue(Ig('\137\251\24\245p\234\133\235\3\196a\241\159','\236\136h\170\4\130'),10517-10515);UI.SetValue(Ig('*\133\173\191\254\17\141\160\174\252','N\224\207\202\153'),false);UI.SetValue(Ig('\134~\151T\193\134\21\224\184n\141Z\197\139\2\233','\231\v\227;\167\231g\141'),false);UI.SetValue(Ig('\218\158\18\211\238\213\146\18\222\200','\177\247~\191\177'),-550+551);UI.SetValue(Ig('\171Scb\180SuZ\163','\198\50\27='),133470000/26694);UI.SetValue(Ig('\150\165:\199\195u\204\191\138\219\201\131\178!\208\250|\219\187\178\219\212','\247\208N\168\165\20\190\210\213\179\160'),14504000/29008);notify(Ig('D\154\183Ql\245\25g\209\49\31\168Yc\223\183J%\255\27r\144\54\22\175O','\23\255\195%\5\155~\20\241Cz\219<'),Ig('B\242m\243','\v\156'),9487-9485)end)end);task.spawn(Xf)local lc,de=false,game.GetService(game,Ig('\142F\150\167O\133\173','\222*\247'))local I,S,P,Ic,Sd,Mb,cg,fc,Na,fa_,cd,bg,z,Hf,Aa,pg,eg,A,sc,Gf,dd,H=de.LocalPlayer,false,nil,{},nil,nil,false,nil,false,Ig('{\28\210X\18\204','5s\160'),os.time(),false,false,0,math.floor,math.sqrt,math.sin,math.abs,os.clock,os.time,string.lower,string.find local function dg()return I and I.Character end local function Wc(fe)if not(not fe)then else return nil end local Qa,zd=la(function()return fe.Text end)return Qa and zd or nil end local function Yb()local Lg=I and I.FindFirstChild(I,Ig('\249\150\142\\\204\136\168P\192','\169\250\239%'))return Lg and Lg.FindFirstChild(Lg,Ig('\253\171\199\139\198\163\210\141\209','\180\197\179\238'))or nil end local function tc(wd)if not wd then return false end local hb,Dd=la(function()return wd.Address end)if not(not hb or not Dd or Dd==0)then else return false end local re_,pc=la(function()return memory_read(Ig('\251\217\237\197','\153\160'),Dd+(23806+-22361))==25868/25868 end)return re_ and pc or false end local function tf(Ge)return pg(Ge.X*Ge.X+Ge.Y*Ge.Y+Ge.Z*Ge.Z)end local function Fa(Ma,O)local Yd,bf=Ma.X-O.X,Ma.Z-O.Z return pg(Yd*Yd+bf*bf)end local function Fc(Ue)if not(not Ue or not Ue.Parent)then else return false end local td,qe=la(function()return Ue.Position end)if not(not td or not qe)then else return false end if not(qe.X~=qe.X)then else return false end return not(qe.X==0 and qe.Y==0 and qe.Z==0)end local function Zf(x)return Aa(x/(-153- -213))..Ig('9t','T')..Aa(x%(-14446+14506))..Ig('\6','u')end local function Zd()local ff=I and I.Character return ff and ff.FindFirstChild(ff,Ig('\255\183x$[X\159\202\229\173z1eV\132\218','\183\194\21E57\246\174'))or nil end local function Ab(Md)if not Md or not Md.Parent then return nil end local nc=Md.FindFirstChild(Md,Ig('&\229I?\1\244X.','n\140=]'))if not(not nc)then else return nil end local Hb=nc.FindFirstChild(nc,Ig('A\96}','\t'))return Hb and Hb.FindFirstChild(Hb,Ig('[mei','\21\f'))or nil end local function Tb(_g)if not(not _g or not _g.Parent)then else return nil end local ec=_g.FindFirstChild(_g,Ig('\23\6\233\234\207\240%\219\r\28\235\255\241\254>\203','_s\132\139\161\159L\191'))return(ec and Fc(ec))and ec or nil end local function fd(bb)if not(not bb or not bb.Parent)then else return nil end local ab=bb.FindFirstChild(bb,Ig('\20J=K','\\/'))return(ab and Fc(ab))and ab or nil end local function xc()return Aa(I and I.GetAttribute(I,Ig('h\137Z\137',';\253'))or 0)end local function p()return I and I.GetAttribute(I,Ig('\161[\147[','\242/'))or 0 end local function Dc(Db)if not Db then return true end if not Db.Parent then return true end if not(Ic[Db])then else return true end local hf,ib=la(function()return Db.GetAttribute(Db,Ig('(\140\r\141','l\233'))end)if not(hf and ib==true)then else Ic[Db]=sc()return true end if not Db.FindFirstChildOfClass(Db,Ig('<\194\3\v\26\216\a\14','t\183nj'))then Ic[Db]=sc()return true end return false end local function If(Pb)local Yc=ng and ng.GetChildren(ng)or{}for zf=19936+-19769,(#Yc)+0.017470006314460114*9502 do local Z=Yc[(zf- -2963764/-17854)]if not(Z and Z.Parent)then else local bc=Z.FindFirstChild(Z,Ig('\155\53m\27\188$|\n','\211\\\25y'))if not(bc)then else local Nb=bc.FindFirstChild(bc,Ig('\177|(\144z(','\245\25\\'))if Nb then local hd=Nb.FindFirstChild(Nb,Ig('\132\3\161\18\168','\192f'))if not(hd and hd.Parent)then else local Uf,Wb=la(function()return tf(Pb-hd.Position)end)if not(Uf and Wb<-0.00099157164105106587*-10085)then else return true end end end end end end return false end local function Ua(Sf)if not Sf then return 0.0090395480225988704*13275 end if Sf.Name==Ig("\180\202\'(k,\170\234:=i)",'\245\190SI\bG')then return 0.0056959772160911359*28090 end local ig,Xe=la(function()return Sf.GetAttribute(Sf,Ig('5\29\17\1','ad'))end)if not(ig and(Xe==Ig('V\183\232\231f\171\229\228','\21\216\132\136')or Xe==Ig('\164\209\150\201\155','\247\165')))then else return 0.0033630401883302506*29735 end return 0.0066412086999833968*18069 end local function pf()return(sc()-cd)<9211-9210 end local function va(Cd)local De=Zd()if not De then return 7.1776485788113691*13932 end local Wd=Tb(Cd)if not(Wd)then else local db,Ve=la(function()return tf(Wd.Position-De.Position)end)return db and Ve or 95993- -4006 end local oc=Ab(Cd)if oc and Fc(oc)then local ne,of=la(function()return tf(oc.Position-De.Position)end)return ne and of or 6.5780160505196683*15202 end return 3.6550678021857523*27359 end local function ya(Hg)local Gb=Tb(Hg)if Gb then return Gb.Position end local xd=fd(Hg)if not(xd)then else return xd.Position end local ad=Ab(Hg)return(ad and Fc(ad))and ad.Position or nil end local function Gd()local Pd=ng and ng.GetChildren(ng)or{}for Bf=-21769- -21903,(#Pd)+(12814+-12681)do if not Dc(Pd[(Bf-2095681/15757)])then return true end end return false end local function Nd(q)local Sb=Yb()if not Sb then return nil end local g=Sb.FindFirstChild(Sb,Ig('\162\191\174','\234'))if not g then return nil end local lb=g.FindFirstChild(g,Ig('\22\233PY?-\226LY/','Y\139:<\\'))if not(not lb)then else return nil end local vd=lb.FindFirstChild(lb,Ig('e\239A\224','(\142'))if not vd then return nil end local Se=vd.FindFirstChild(vd,q)if not Se then return nil end local Qf=Wc(Se)if Qf then return Qf end local eb=Se.GetDescendants(Se)for _e=-11147+11325,(#eb)+-2159400/-12200 do if eb[(_e-(11484+-11307))].ClassName==Ig('\181=\17&\173\57\v\55\141','\225XiR')then Qf=Wc(eb[(_e-(-32519+32696))])if Qf and Qf~=''then return Qf end end end return nil end local function Kg()return Nd(Ig('\133|\27l\r\165F8{\6\175','\193\25}\tc'))~=nil end local function jc()local K=Nd(Ig('\183\164\220\25\202\135\158\255\14\206\157','\243\193\186|\171'))return K and H(K,Ig('\211\205\211','\226'))and true or false end local function ic()local we=ng and ng.FindFirstChild(ng,Ig('\255mV\139D\175\225MK\158F\170',"\190\25\"\234\'\196"))return(we and we.Parent and not Dc(we))and we or nil end local function Nf()local wa=ic()if not(not wa)then else return false end local Xd,nb=la(function()return wa.GetAttribute(wa,Ig('\202s\167\234d\184','\139\a\211'))end)return Xd and nb==Ig('1\167\2\186','c\200')or false end local function Ef(jb)if not jb or not jb.Parent then return end local Ed=Zd()if not(not Ed)then else return end local Ac,gf=Ed.Position,jb.FindFirstChild(jb,Ig('{|\247\193\\m\230\208','3\21\131\163'))if not gf then return end local ue=gf.FindFirstChild(gf,Ig('\173\140\145','\229'))if not(not ue)then else return end local Qb={Ig('5\151\v\147','{\246'),Ig('\236\232\0\212\193\3\199','\160\141f'),Ig('\144\244\22\242\182\209\20\253','\194\157q\154'),Ig('\173w\5\149S\17\140','\225\18c'),Ig('\131PG\226\165xR\231','\209\57 \138'),Ig('\237\136\205\130','\168\241')}for ve=0.0065585208442351297*28665,(-21943+21949)+(23234-23047)do local je=ue.FindFirstChild(ue,Qb[(ve-1642608/8784)])if je and je.Parent then la(function()je.Position=Ac+Vector3 .new(0,0.00014570887367040654*13726,0);je.Size=Vector3 .new(29116-29101,15707+-15692,-16260- -16275)end)end end end local function xb()if not(not isrbxactive())then else return end if not(not cg)then else keypress(12627-12610);task.wait(4.403734366742998e-06*22708);keyrelease(-0.00055679287305122492*-30532);task.wait(-3254.8000000000002/-32548);cg=true end end local function Ob()if not isrbxactive()then return end keypress(-24600+24822);task.wait(3319.7999999999997/22132);keyrelease(30051+-29829);task.wait(1078.5+-1078);keypress(0.013122576796898299*16765);task.wait(-3933.2999999999997/-26222);keyrelease(5147-4927);task.wait(12901.5-12901)end local function Fg()if not(not isrbxactive())then else return end keypress(-7248+7470);task.wait(-6.6512947853848877e-06*-22552);keyrelease(-5986230/-26965);task.wait(31138.5+-31138);keypress(-6578220/-29901);task.wait(-2964.75/-19765);keyrelease(0.0089238632215146232*24653);task.wait(-12444.5+12445)end local function N()if not isrbxactive()then return end keypress(3307+-3294);task.wait(-1388.8499999999999/-9259);keyrelease(-0.00089126559714795004*-14586);task.wait(1.3137151865475564e-05*22836)end local function Be()if not isrbxactive()then return end keypress(-18405+18473);task.wait(755.60000000000002/7556);keyrelease(-2164780/-31835);task.wait(9.4939713282065899e-06*21066)end local function Vc()local _f=Yb()if not(not _f)then else return false end local Ea=_f.FindFirstChild(_f,Ig('d\245^\238','7\158'))if not(not Ea)then else return false end local yb=Ea.FindFirstChild(Ea,Ig('F\232\180\3}\231\163\18','\15\134\192f'))return yb and tc(yb)or false end local function Mf()local Vd=Yb()if not Vd then return false end local qf=Vd.FindFirstChild(Vd,Ig('WC\199dT\212v','\5&\176'))if qf and tc(qf)then return true end local Wf=Vd.FindFirstChild(Vd,Ig('\250\221\220\202\209','\168\184'))return Wf and tc(Wf)or false end local function lg()local w_=Yb()if not w_ then return false end local i_=w_.FindFirstChild(w_,Ig('\179\243\159\128\228\140\146','\225\150\232'))return i_ and tc(i_)or false end local function Pe()if not(not isrbxactive())then else return end Ob();N();Fg()end local function yd()if not isrbxactive()then return end Ob();Be();Be();N();Fg()end local function c(nf)if not nf then return false end local Lc=Va(nf)if not Lc then return false end local za=me.CurrentCamera and me.CurrentCamera.ViewportSize if not za then return false end local qa,Ld=Lc.X-za.X/(880/440),Lc.Y-za.Y/(22256+-22254)if not(A(qa)<12704-12699 and A(Ld)<-8320+8325)then else return true end mousemoverel(qa*(159.5/319),Ld*(15032.5/30065))return false end local function Ec(tg)if not tg or Dc(tg)then return end local _a=tg.FindFirstChild(tg,Ig('R\248{\249','\26\157'))if not(not _a or not _a.Parent)then else return end local ye=Zd()if not ye then return end local f_,zg,a_=la(function()return _a.Position,ye.Position end)if not f_ then return end local vf,E=zg.X-a_.X,zg.Z-a_.Z local Jf=pg(vf*vf+E*E)if not(Jf>0)then vf=0;E=-14467/-14467 else vf=vf/Jf;E=E/Jf end c(Vector3 .new(zg.X+vf*(2879250/19195),zg.Y,zg.Z+E*(-26551+26701)))end local function mb(ug)if not(not ug)then else return false end local mg,id,Zc=la(function()return ug.AbsolutePosition,ug.AbsoluteSize end)if not mg or not id or not Zc then return false end local Cb,lf=id.X+Zc.X/(-0.00027048958615093319*-7394),id.Y+Zc.Y/(47118/23559);mousemoveabs(Cb,lf);task.wait(-1280.2/-6401);mouse1click();task.wait(5.7504312823461766e-05*1739);mouse1click();task.wait(3.6388777700957025e-06*27481)return true end local function Rc(_c)local ld=Yb()if not ld then return false end local Zb=ld.FindFirstChild(ld,Ig('\218\251\131\234\231\149','\153\147\230'))if not Zb then return false end local t_=Zb.FindFirstChild(Zb,_c)if not t_ then return false end S=false;task.wait(-2340.9000000000001/-7803)return mb(t_)end local function Me()local ed=Yb()if not(not ed)then else return false end local Rd=ed.FindFirstChild(ed,Ig('\155\198\242\171\218\228','\216\174\151'))if not(not Rd)then else return false end local pd=Rd.FindFirstChild(Rd,Ig('N\133&a\159 ','\b\236H'))if not(not pd)then else return false end return mb(pd)end local function Id()S=false;Sd=nil;Mb=nil;z=false;task.wait(1.3910140492418972e-05*21567)local yf=sc()while not Vc()and not lg()and(sc()-yf)<30541+-30526 do task.wait(5697.5/11395)end task.wait(-3.6979513349604321e-05*-27042)if not(Mf()or lg())then else yd()end cd=Gf();Sd=nil;Mb=nil;Ic={};bg=false;z=false;Hf=xc()end local function ra(qc)local j=Zd()if not(not j)then else return end local Bd,Xb,Lb=Ua(qc),eg(sc()*(0.00056792367105860974*17608)*(0.00019973234153474473*15729)*(17271-17269))*(60868/30434),nil if not(fa_==Ig('Y5k-f','\nA'))then else local vc=fd(qc)if vc then local h,Uc=la(function()return vc.Position end)if not(h)then else Lb=Uc end end end if not(not Lb)then else local rc=Tb(qc)if not rc then return end local v,kc=la(function()return rc.Position end)if not(not v)then else return end Lb=kc end j.Position=Vector3 .new(Lb.X,Lb.Y+Bd+Xb,Lb.Z)end local function Td(Ce)if not Ce or not Fc(Ce)then return end local Jg=Zd()if not Jg then return end la(function()Ce.Position=Jg.Position+Vector3 .new(0,6.9070313579223651e-05*28956,0);Ce.Size=Vector3 .new(-224070/-22407,3135+-3125,-0.00063954975697109236*-15636)end)end local function Ff(F,C)if fa_==Ig('\171z\144\127','\249\27')then return end if not(not F or not Fc(F))then else return end local qg=Zd()if not qg then return end local rg,Mc=la(function()return qg.Position end)if not rg then return end local od=Tb(C)if not od then return end local Jd,Re=la(function()return od.Position end)if not Jd then return end local oe=ng and ng.GetChildren(ng)or{}for ea=31909-31715,(#oe)+(7720+-7527)do local Fd=oe[(ea- -0.038324066719618743*-5036)]if Fd~=C and not Dc(Fd)then local hg=Ab(Fd)if hg and Fc(hg)then local Qd=Tb(Fd)if not(Qd)then else local qd,Cf=la(function()return tf(Qd.Position-Re)end)if qd and Cf<=16447-16297 then la(function()hg.Position=Mc+Vector3 .new(0,6.5025847774490361e-05*30757,0);hg.Size=Vector3 .new(-24033- -24048,12303-12288,-14259+14274)end)end end end end end end local function Nc()local kg=ic()if not(kg)then else fa_=Ig('6\v\r\14','dj');bg=true if not(Nf())then else return nil,nil end local Hd=Ab(kg)or Bg(kg)if not(Hd and Fc(Hd))then else return kg,Hd end return nil,nil end local Cc,if_=fa_==Ig('\16\31\"\a/','Ck'),ng and ng.GetChildren(ng)or{}if not(not Cc)then else for af=15147-14997,(#if_)+4189880/28120 do local B,He=la(function()return if_[(af-0.0062317022166457547*23910)].GetAttribute(if_[(af-0.0062317022166457547*23910)],Ig('@\230d\250','\20\159'))end)if not(B and(He==Ig(':\28\208k\n\0\221h','ys\188\4')or He==Ig('\nx8\96\53','Y\f')))then else Cc=true break end end end local ca={}for Za=-12677- -12695,(#if_)+(-2539+2556)do local pb=if_[(Za-(-7559+7576))]if not(not Dc(pb))then else local sg=Ab(pb)if not(sg and Fc(sg))then else local ob=va(pb);ca[#ca+-21610/-21610]={titan=pb,nape=sg,distance=ob}end end end if not(#ca==0)then else for kf=8282-8251,(#if_)+(5956+-5926)do local La=if_[(kf-(24400-24370))]if not Dc(La)then task.wait(20.18/1009)local ce=Bg(La)if not(ce and Fc(ce))then else local ae=va(La);ca[#ca+(26743-26742)]={titan=La,nape=ce,distance=ae}end end end end if not(#ca==0)then else return nil,nil end table.sort(ca,function(Sc,Kb)return Sc.distance<Kb.distance end)return ca[5716/5716].titan,ca[0.00024354603019970775*4106].nape end local function kb()while lc do la(function()local xg=sc()local Ba,Ia=Nc()if not(not Ba or not Ia)then else if not pf()then if not P then P=xg end if not(bg)then if not(xg-P>=-15068.5- -15069)then else S=false;Sd=nil;Mb=nil;Id();P=nil;task.wait(-0.00012382367508667657*-8076)end else if jc()then if not(xg-P>=-3872+3873)then else S=false;Sd=nil;Mb=nil;task.wait(-15703+15705);Rc(Ig('\6F%Q','@4'));task.wait(0.0010332103321033211*6775);Rc(Ig('\"\222\142\31\197\158\31','r\172\235'));task.wait(-1083+1090);Me();task.wait(-0.00016936235074942841*-11809);Id();P=nil;task.wait(-27905+27906)end else if xg-P>=-28946+28948 then task.wait(4128.8000000000002/20644)if Vc()then Pe()end P=xg end end end end task.wait(-4.9726504226752858e-05*-10055)return end P=nil if not(not Na)then else Na=true;fc=sc()end local se_=Ba.Name==Ig('\208\19H\v#\17\206\51U\30!\20','\145g<j@z');Sd=Ba;Mb=Ia;z=se_ if not cg then xb()end local ua=xc();S=true local jf=0 while lc do if not(not isrbxactive())then else break end if Dc(Ba)then break end if not(xc()>ua)then else Ic[Ba]=sc()break end if not(se_ and Nf())then else break end jf=jf+(541-540)if not(jf>=0.00085135365230716836*5873)then else jf=0 if not Fc(Ia)then Ia=Bg(Ba)if not(not Ia or not Fc(Ia))then else break end Mb=Ia end local gc=Zd()if gc and If(gc.Position)then break end end ra(Ba);Td(Ia)if se_ then Ef(Ba)else Ff(Ia,Ba)end if cg and isrbxactive()then Ec(Ba)end task.wait()end S=false;Sd=nil;Mb=nil;z=false end);task.wait(-1.5338834862103876e-06*-32597)end end local function ga(Jc)if Jc then if not(not lc)then else lc=true;task.spawn(kb)end notify(Ig('\153VB\250It\201\4\248FX\244My\222\r','\216#6\149/\21\187i'),Ig('^\167^y\166L','\r\211?'),-31351+31353)if not(UI.GetValue(Ig('R\169\205\255\139i\161\192\238\137','6\204\175\138\236')))then else ma(Ig('\203r\140j\145\174\206q\170t\140d\133\187\217x','\138\a\248\5\247\207\188\28'),Ig("\'+R= ?T?",'f~\6r'))end else lc=false;S=false;notify(Ig('\214\18\190\130\164\227b\179\183\3\163\158\163\224|\187\243','\151g\202\237\194\130\16\222'),Ig('\217\189\19\254\188\1','\138\201r'),1142-1140)if UI.GetValue(Ig('{\227;P\129@\235\54A\131','\31\134Y%\230'))then ma(Ig('\175\246\t;\173=\\b\206\240\t;\187,Kk','\238\131}T\203\\.\15'),Ig('C\172\217jD\184\223h','\2\249\141%'))end end end task.spawn(function()local Ud=false while true do local Bb=UI.GetValue(Ig('\\?\187U\240+\185\181b/\161[\244&\174\188','=J\207:\150J\203\216'))if not(Bb~=Ud)then else ga(Bb);Ud=Bb end task.wait(1.5421151651605342e-06*32423)end end);task.spawn(function()while true do if not(S and isrbxactive())then task.wait(2710.9000000000001/27109)else mouse1click();task.wait(-6.7780526654692106e-07*-29507);keypress(-23277+23309);task.wait(1.3809293654629565e-06*14483);keyrelease(28439+-28407);task.wait(-248/-12400)end end end)local function Le()local wc,oa=la(function()return UI.GetValue(Ig('KFN\179\149\215|\\S\171\159\240[','#/:\209\250\175'))end)local Wa,zc=la(function()return UI.GetValue(Ig('\3\205\164\133\5\49\52\215\185\157\15\22\18','k\164\208\231jI'))end)local T,r_=la(function()return UI.GetValue(Ig('\26N\206mX\2-T\211uR%\b',"r\'\186\15\55z"))end)if not(not wc)then else oa=Tf.x end if not(not Wa)then else zc=Tf.y end if not T then r_=Tf.z end if not(Tf.x==nil)then else Tf.x,Tf.y,Tf.z=oa,zc,r_ return false end if not(oa~=Tf.x or zc~=Tf.y or r_~=Tf.z)then else Tf.x,Tf.y,Tf.z=oa,zc,r_;Af.x=oa;Af.y=zc;Af.z=r_ return true end return false end while true do la(function()Le();Gg();be()end);task.wait(xa.updateRate)end
+
+if identifyexecutor() ~= "Matcha" then
+    notify("Requires Matcha executor", "Error", 5)
+    return
+end
+
+setrobloxinput(true)
+
+local CONFIG = {
+    maxWaitTime = 10,
+    updateRate = 0.03,
+}
+
+local Workspace = game:GetService("Workspace")
+
+local modifiedTitans = {}
+local titanESP = {}
+local titansFolder = nil
+local allTitans = {}
+local napeCache = setmetatable({}, { __mode = "k" })
+local originalSizes = setmetatable({}, { __mode = "k" })
+local autofarmTitans = setmetatable({}, { __mode = "k" })
+local prevHitbox = { x = nil, y = nil, z = nil }
+local lastHitboxSize = { x = 400, y = 500, z = 400 }
+local _hitboxNeedsRefresh = true
+local _notifyOnceOnChange = false
+
+-- Localize common globals for small performance gains
+local pcall = pcall
+local pairs = pairs
+local ipairs = ipairs
+local Color3_fromRGB = Color3.fromRGB
+local Vector2_new = Vector2.new
+local _Vector3_new = Vector3.new
+local Drawing_new = Drawing and Drawing.new
+local WorldToScreen_fn = WorldToScreen
+
+local function _lookAtCamera(camera, fromPosition, toPosition)
+    if not camera then return end
+    pcall(function()
+        camera:lookAt(fromPosition, toPosition)
+    end)
+end
+
+-- Use weak tables to avoid leaking instance references
+pcall(function()
+    setmetatable(modifiedTitans, { __mode = "k" })
+    setmetatable(allTitans, { __mode = "k" }) 
+end)
+
+-- Reuse edges table to avoid reallocating every frame
+local BOX_EDGES = {
+    { 1, 2 }, { 1, 3 }, { 2, 4 }, { 3, 4 },
+    { 5, 6 }, { 5, 7 }, { 6, 8 }, { 7, 8 },
+    { 1, 5 }, { 2, 6 }, { 3, 7 }, { 4, 8 }
+}
+
+local function log(message, prefix)
+    prefix = prefix or "DEBUG"
+    print("[" .. prefix .. "] " .. tostring(message))
+end
+
+local function debugNotify(message, title)
+    if UI.GetValue("debug_mode") then
+        notify(message, title or "Debug", 1)
+    end
+end
+
+local function worldToScreen(worldPos)
+    if not worldPos then return nil end
+    local success, screenPos, isOnScreen = pcall(function()
+        return WorldToScreen_fn(worldPos)
+    end)
+    if not success or not screenPos or not isOnScreen then return nil end
+    return screenPos
+end
+
+local function getCorners(center, size)
+    if not center or not size then return {} end
+    local sx, sy, sz = size.X / 2, size.Y / 2, size.Z / 2
+    return {
+        Vector3.new(center.X - sx, center.Y - sy, center.Z - sz),
+        Vector3.new(center.X + sx, center.Y - sy, center.Z - sz),
+        Vector3.new(center.X - sx, center.Y + sy, center.Z - sz),
+        Vector3.new(center.X + sx, center.Y + sy, center.Z - sz),
+        Vector3.new(center.X - sx, center.Y - sy, center.Z + sz),
+        Vector3.new(center.X + sx, center.Y - sy, center.Z + sz),
+        Vector3.new(center.X - sx, center.Y + sy, center.Z + sz),
+        Vector3.new(center.X + sx, center.Y + sy, center.Z + sz),
+    }
+end
+
+local function getNape(titan)
+    if not titan or not titan.Parent then return nil end
+
+    -- return cached nape when valid
+    local cached = napeCache[titan]
+    if cached and cached.Parent and cached:IsA("BasePart") then
+        return cached
+    end
+
+    local found = nil
+    pcall(function()
+        local hb = titan:FindFirstChild("Hitboxes")
+        if hb and hb.Parent then
+            local hit = hb:FindFirstChild("Hit")
+            if hit and hit.Parent then
+                local n = hit:FindFirstChild("Nape") or hit:FindFirstChild("nape")
+                if n and n.Parent and n:IsA("BasePart") then
+                    found = n
+                    return
+                end
+            end
+        end
+
+        -- Fallback: scan descendants for likely nape/neck parts (case-insensitive)
+        for _, desc in ipairs(titan:GetDescendants()) do
+            if desc and desc.Parent and desc:IsA("BasePart") then
+                local lname = desc.Name:lower()
+                if lname == "nape" or lname:find("nape") or lname:find("neck") then
+                    found = desc
+                    break
+                end
+            end
+        end
+    end)
+
+    if found then
+        napeCache[titan] = found
+    end
+    return found
+end
+
+local function applyHitboxSize(nape, sizeX, sizeY, sizeZ)
+    if not nape or not nape.Parent then return end
+    pcall(function()
+        nape.Size = Vector3.new(sizeX, sizeY, sizeZ)
+        nape.CanCollide = true
+    end)
+end
+
+local function modifyNapeHitbox(titan)
+    if not titan or not titan.Parent then return false end
+    if modifiedTitans[titan] then return false end
+
+    local humanoid = titan:FindFirstChild("Humanoid")
+    if not humanoid or humanoid.Health <= 0 then return false end
+
+    local nape = getNape(titan)
+    if not nape then return false end
+
+    pcall(function()
+        modifiedTitans[titan] = true
+        originalSizes[titan] = nape.Size
+        log("Registered: " .. titan.Name, "NAPE")
+        debugNotify("Registered: " .. titan.Name, "Info")
+
+        if UI.GetValue("hitbox_enabled") then
+            applyHitboxSize(nape, lastHitboxSize.x, lastHitboxSize.y, lastHitboxSize.z)
+        end
+
+        titan.Destroying:Once(function()
+            modifiedTitans[titan] = nil
+            originalSizes[titan] = nil
+        end)
+    end)
+
+    return true
+end
+
+local function create3DBox()
+    if not Drawing_new then return {} end
+    local lines = {}
+    local r = (UI and UI.GetValue and UI.GetValue("esp_color_r")) or 0
+    local g = (UI and UI.GetValue and UI.GetValue("esp_color_g")) or 255
+    local b = (UI and UI.GetValue and UI.GetValue("esp_color_b")) or 0
+    local thickness = (UI and UI.GetValue and UI.GetValue("esp_thickness")) or 2
+
+    for i = 1, 12 do
+        local ok, line = pcall(Drawing_new, "Line")
+        if ok and line then
+            pcall(function()
+                line.Color = Color3_fromRGB(r, g, b)
+                line.Thickness = thickness
+                line.Visible = false
+            end)
+            lines[i] = line
+        end
+    end
+    return lines
+end
+
+local function drawBox(lines, nape, espEnabled, r, g, b, thickness)
+    if not lines or not nape or not nape.Parent then return end
+    pcall(function()
+        local pos = nape.Position
+        local size = nape.Size
+        if not pos or not size then return end
+
+        local corners = getCorners(pos, size)
+        if #corners == 0 then return end
+
+        local projected = {}
+        for i, corner in ipairs(corners) do
+            projected[i] = worldToScreen(corner)
+        end
+
+        for i, edge in ipairs(BOX_EDGES) do
+            local p1 = projected[edge[1]]
+            local p2 = projected[edge[2]]
+            local line = lines[i]
+            if not line then continue end
+
+            if p1 and p2 then
+                if r and g and b then pcall(function() line.Color = Color3_fromRGB(r, g, b) end) end
+                if thickness then pcall(function() line.Thickness = thickness end) end
+                line.From = Vector2_new(p1.X, p1.Y)
+                line.To = Vector2_new(p2.X, p2.Y)
+                line.Visible = espEnabled
+            else
+                pcall(function() line.Visible = false end)
+            end
+        end
+    end)
+end
+
+local function createESP(titan)
+    if not titan or not titan.Parent then return end
+    if titanESP[titan] then return end
+
+    local lines = create3DBox()
+    if not lines or #lines == 0 then return end
+
+    titanESP[titan] = { model = titan, lines = lines }
+end
+
+local function removeESP(titan)
+    local data = titanESP[titan]
+    if not data or not data.lines then return end
+    for _, line in ipairs(data.lines) do
+        if line then pcall(function() line:Remove() end) end
+    end
+    titanESP[titan] = nil
+end
+
+local function cleanupESP()
+    for titan, data in pairs(titanESP) do
+        if not data or not data.model then removeESP(titan); continue end
+
+        if not titan or not titan.Parent then removeESP(titan); continue end
+
+        pcall(function()
+            local humanoid = titan:FindFirstChild("Humanoid")
+            if not humanoid or humanoid.Health <= 0 then
+                removeESP(titan)
+                return
+            end
+
+            local nape = getNape(titan)
+            if not nape or not nape.Parent then
+                removeESP(titan)
+            end
+        end)
+    end
+end
+
+local function updateTitans()
+    cleanupESP()
+
+    local espEnabled = true
+    local r, g, b, thickness = nil, nil, nil, nil
+    local ok1, v1 = pcall(function() return UI.GetValue("esp_enabled") end)
+    if ok1 then espEnabled = v1 end
+    if espEnabled then
+        local ok_r, rr = pcall(function() return UI.GetValue("esp_color_r") end)
+        local ok_g, gg = pcall(function() return UI.GetValue("esp_color_g") end)
+        local ok_b, bb = pcall(function() return UI.GetValue("esp_color_b") end)
+        local ok_t, tt = pcall(function() return UI.GetValue("esp_thickness") end)
+        r = ok_r and rr or 0
+        g = ok_g and gg or 255
+        b = ok_b and bb or 0
+        thickness = ok_t and tt or 2
+    end
+
+    if not espEnabled then
+        -- Hide existing ESP lines when ESP is turned off
+        for titan, data in pairs(titanESP) do
+            if data and data.lines then
+                for _, line in ipairs(data.lines) do
+                    if line then pcall(function() line.Visible = false end) end
+                end
+            end
+        end
+        return
+    end
+
+    for titan, data in pairs(titanESP) do
+        if not data or not data.model or not data.lines then continue end
+        pcall(function()
+            if titan and titan.Parent then
+                local nape = getNape(titan)
+                if nape and nape.Parent then
+                    drawBox(data.lines, nape, espEnabled, r, g, b, thickness)
+                end
+            end
+        end)
+    end
+end
+
+local function updateModifiedTitans()
+    local sizeX = UI.GetValue("hitbox_size_x") or 400
+    local sizeY = UI.GetValue("hitbox_size_y") or 500
+    local sizeZ = UI.GetValue("hitbox_size_z") or 400
+    lastHitboxSize.x = sizeX
+    lastHitboxSize.y = sizeY
+    lastHitboxSize.z = sizeZ
+
+    local targets = {}
+    for titan, _ in pairs(modifiedTitans) do targets[titan] = true end
+    for titan, _ in pairs(allTitans) do targets[titan] = true end
+
+    for titan, _ in pairs(targets) do
+        pcall(function()
+            if titan and titan.Parent then
+                local humanoid = titan:FindFirstChildOfClass("Humanoid")
+                if not humanoid or humanoid.Health <= 0 then
+                    allTitans[titan] = nil
+                    modifiedTitans[titan] = nil
+                    originalSizes[titan] = nil
+                    autofarmTitans[titan] = nil
+                    return
+                end
+
+                local nape = getNape(titan)
+                if nape and nape.Parent then
+                    if autofarmTitans[titan] then return end
+                    if UI.GetValue("hitbox_enabled") then
+                        applyHitboxSize(nape, sizeX, sizeY, sizeZ)
+                    else
+                        local orig = originalSizes[titan]
+                        if orig then
+                            pcall(function()
+                                nape.Size = orig
+                            end)
+                        end
+                    end
+                end
+            else
+                allTitans[titan] = nil
+                modifiedTitans[titan] = nil
+                originalSizes[titan] = nil
+                autofarmTitans[titan] = nil
+            end
+        end)
+    end
+end
+
+local function initialize()
+    log("Initializing Hitbox Extender + ESP...", "INIT")
+
+    if not Workspace then
+        log("Workspace not available!", "ERROR")
+        return
+    end
+
+    titansFolder = Workspace:FindFirstChild("Titans")
+    if not titansFolder then
+        titansFolder = Workspace:WaitForChild("Titans", CONFIG.maxWaitTime)
+    end
+
+    if not titansFolder then
+        log("Titans folder not found!", "ERROR")
+        debugNotify("Titans folder not found", "Error")
+        return
+    end
+
+    local function processTitan(titan)
+        if not titan or not titan.Parent then return end
+        allTitans[titan] = true
+        modifyNapeHitbox(titan)
+        createESP(titan)
+
+        pcall(function()
+            titan.Destroying:Once(function()
+                allTitans[titan] = nil
+                modifiedTitans[titan] = nil
+            end)
+        end)
+    end
+
+    pcall(function()
+        for _, titan in ipairs(titansFolder:GetChildren()) do
+            processTitan(titan)
+        end
+    end)
+
+    pcall(function()
+        titansFolder.ChildAdded:Connect(processTitan)
+    end)
+
+    log("Initialization complete!", "INIT")
+    notify("Hitbox Extender + ESP Ready", "Success", 3)
+end
+
+UI.AddTab("AOTR Tools", function(tab)
+    local hitbox = tab:Section("Hitbox Extender", "Left")
+
+    hitbox:Toggle("hitbox_enabled", "Enabled", false)
+    hitbox:Tip("Enable/disable nape hitbox extension")
+    local hitbox_kb = hitbox:Keybind("hitbox_kb", 0x48, "toggle")
+    hitbox_kb:AddToHotkey("Hitbox", "hitbox_enabled")
+
+    hitbox:SliderInt("hitbox_size_x", "Size X", 100, 1000, 400)
+    hitbox:SliderInt("hitbox_size_y", "Size Y", 100, 1000, 500)
+    hitbox:SliderInt("hitbox_size_z", "Size Z", 100, 1000, 400)
+    -- transparency and collision options removed
+
+    local esp = tab:Section("ESP", "Right")
+
+    esp:Toggle("esp_enabled", "Enabled", false)
+    esp:Tip("Enable/disable 3D bounding box ESP")
+    local esp_kb = esp:Keybind("esp_kb", 0x45, "toggle")
+    esp_kb:AddToHotkey("ESP", "esp_enabled")
+
+    esp:SliderInt("esp_color_r", "Red", 0, 255, 0)
+    esp:SliderInt("esp_color_g", "Green", 0, 255, 255)
+    esp:SliderInt("esp_color_b", "Blue", 0, 255, 0)
+    esp:SliderInt("esp_thickness", "Line Thickness", 1, 10, 2)
+
+    local debug_sec = tab:Section("Debug", "Right")
+    debug_sec:Toggle("debug_mode", "Debug Mode", false)
+    debug_sec:Tip("Show debug notifications")
+
+    -- NEW AUTOFARM SECTION
+    local autofarm = tab:Section("Autofarm", "Left")
+
+    autofarm:Toggle("autofarm_enabled", "Enabled", false)
+    autofarm:Tip("Enable/disable automatic titan farming")
+    local autofarm_kb = autofarm:Keybind("autofarm_kb", 0x2D, "toggle") -- 0x2D is INSERT key
+    autofarm_kb:AddToHotkey("Autofarm", "autofarm_enabled")
+
+    autofarm:SliderFloat("kill_delay", "Delay Between Kills", 0.5, 5.0, 1.0)
+    autofarm:Tip("Seconds to wait between killing titans")
+    autofarm:SliderInt("max_range", "Max Search Range", 100, 10000, 5000)
+    autofarm:Tip("Maximum distance to search for titans")
+    autofarm:SliderInt("autofarm_hitbox_height", "Hitbox Height", 30, 1000, 500)
+    autofarm:Tip("Height of the hitbox used by autofarm")
+
+    local actions = tab:Section("Actions", "Left")
+    actions:Button("Reset Settings", function()
+        UI.SetValue("hitbox_enabled", false)
+        UI.SetValue("hitbox_size_x", 400)
+        UI.SetValue("hitbox_size_y", 500)
+        UI.SetValue("hitbox_size_z", 400)
+        UI.SetValue("esp_enabled", false)
+        UI.SetValue("esp_color_r", 0)
+        UI.SetValue("esp_color_g", 255)
+        UI.SetValue("esp_color_b", 0)
+        UI.SetValue("esp_thickness", 2)
+        UI.SetValue("debug_mode", false)
+        UI.SetValue("autofarm_enabled", false)
+        UI.SetValue("kill_delay", 1.0)
+        UI.SetValue("max_range", 5000)
+        UI.SetValue("autofarm_hitbox_height", 500)
+        notify("Settings reset to defaults", "Info", 2)
+    end)
+end)
+
+task.spawn(initialize)
+
+-- AUTOFARM VARIABLES AND FUNCTIONS
+local autofarmActive = false
+
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+
+local m1Active = false
+local noTitansTime = nil
+local killedTitans = {}
+local _currentTargetTitan = nil
+local _currentTargetNape = nil
+local cameraLocked = false
+local _missionStartTime = nil
+local _missionElapsedTime = 0
+local missionTimerRunning = false
+local currentMissionType = "Normal"
+local sessionStartTime = os.time()
+local raidDetected = false
+local _fightingAttackTitan = false
+local _lastKillCount = 0
+
+local BOB_HEIGHT_STALL = 100
+local BOB_HEIGHT_NORMAL = 120
+local BOB_HEIGHT_ATTACK = 160
+local _BOB_HEIGHT_COLOSSAL = 200
+local BOB_AMPLITUDE = 2
+local BOB_SPEED = 10
+local DEATH_ZONE_DISTANCE = 10
+local NEARBY_NAPE_RADIUS = 150
+local INITIAL_LOAD_TIME = 1
+
+local VK_HASH = 0xDE
+local VK_BACKSLASH = 0xDC
+local VK_ENTER = 0x0D
+local VK_D = 0x44
+local VK_CTRL = 0x11
+local _VK_R = 0x52
+local VK_SPACE = 0x20
+
+local VISIBLE_OFFSET = 0x5A5
+
+local mathFloor = math.floor
+local mathSqrt = math.sqrt
+local mathSin = math.sin
+local _mathAbs = math.abs
+local osClock = os.clock
+local osTime = os.time
+local _stringLower = string.lower
+local stringFind = string.find
+
+local function _getCharacter()
+    return LocalPlayer and LocalPlayer.Character
+end
+
+local function safeGetText(obj)
+    if not obj then return nil end
+    local ok, txt = pcall(function() return obj.Text end)
+    return ok and txt or nil
+end
+
+local function getInterface()
+    local pg = LocalPlayer and LocalPlayer:FindFirstChild("PlayerGui")
+    return pg and pg:FindFirstChild("Interface") or nil
+end
+
+local function isElementVisible(element)
+    if not element then return false end
+    local ok, addr = pcall(function() return element.Address end)
+    if not ok or not addr or addr == 0 then return false end
+    local ok2, result = pcall(function() return memory_read("byte", addr + VISIBLE_OFFSET) == 1 end)
+    return ok2 and result or false
+end
+
+local function magnitude(v)
+    return mathSqrt(v.X * v.X + v.Y * v.Y + v.Z * v.Z)
+end
+
+local function _horizontalDistance(a, b)
+    local dx = a.X - b.X
+    local dz = a.Z - b.Z
+    return mathSqrt(dx * dx + dz * dz)
+end
+
+local function isValidPart(part)
+    if not part or not part.Parent then return false end
+    local ok, pos = pcall(function() return part.Position end)
+    if not ok or not pos then return false end
+    if pos.X ~= pos.X then return false end
+    return not (pos.X == 0 and pos.Y == 0 and pos.Z == 0)
+end
+
+local function _formatTime(seconds)
+    return mathFloor(seconds / 60) .. "m " .. mathFloor(seconds % 60) .. "s"
+end
+
+local function getHRP()
+    local char = LocalPlayer and LocalPlayer.Character
+    return char and char:FindFirstChild("HumanoidRootPart") or nil
+end
+
+local function getNapeFast(titan)
+    if not titan or not titan.Parent then return nil end
+    local hb = titan:FindFirstChild("Hitboxes")
+    if not hb then return nil end
+    local hit = hb:FindFirstChild("Hit")
+    return hit and hit:FindFirstChild("Nape") or nil
+end
+
+local function getTitanHRP(titan)
+    if not titan or not titan.Parent then return nil end
+    local hrp = titan:FindFirstChild("HumanoidRootPart")
+    return (hrp and isValidPart(hrp)) and hrp or nil
+end
+
+local function getTitanHead(titan)
+    if not titan or not titan.Parent then return nil end
+    local head = titan:FindFirstChild("Head")
+    return (head and isValidPart(head)) and head or nil
+end
+
+local function getKillCount()
+    return mathFloor(LocalPlayer and LocalPlayer:GetAttribute("Stat") or 0)
+end
+
+local function _getStatRaw()
+    return LocalPlayer and LocalPlayer:GetAttribute("Stat") or 0
+end
+
+local function isTitanDead(titan)
+    if not titan then return true end
+    if not titan.Parent then return true end
+    if killedTitans[titan] then return true end
+    local ok, dead = pcall(function() return titan:GetAttribute("Dead") end)
+    if ok and dead == true then
+        killedTitans[titan] = osClock()
+        return true
+    end
+    if not titan:FindFirstChildOfClass("Humanoid") then
+        killedTitans[titan] = osClock()
+        return true
+    end
+    return false
+end
+
+local function isNearDeathZone(pos)
+    local children = titansFolder and titansFolder:GetChildren() or {}
+    for i = 1, #children do
+        local titan = children[i]
+        if titan and titan.Parent then
+            local hb = titan:FindFirstChild("Hitboxes")
+            if hb then
+                local detect = hb:FindFirstChild("Detect")
+                if detect then
+                    local death = detect:FindFirstChild("Death")
+                    if death and death.Parent then
+                        local ok, dist = pcall(function() return magnitude(pos - death.Position) end)
+                        if ok and dist < DEATH_ZONE_DISTANCE then
+                            return true
+                        end
+                    end
+                end
+            end
+        end
+    end
+    return false
+end
+
+local function getTitanBobHeight(titan)
+    if not titan then return BOB_HEIGHT_NORMAL end
+    if titan.Name == "Attack_Titan" then return BOB_HEIGHT_ATTACK end
+    local ok, t = pcall(function() return titan:GetAttribute("Type") end)
+    if ok and (t == "Colossal" or t == "Stall") then return BOB_HEIGHT_STALL end
+    return BOB_HEIGHT_NORMAL
+end
+
+local function isInLoadingPeriod()
+    return (osClock() - sessionStartTime) < INITIAL_LOAD_TIME
+end
+
+local function getDistanceToTitan(titan)
+    local hrp = getHRP()
+    if not hrp then return 99999 end
+    local thrp = getTitanHRP(titan)
+    if thrp then
+        local ok, dist = pcall(function() return magnitude(thrp.Position - hrp.Position) end)
+        return ok and dist or 99999
+    end
+    local nape = getNapeFast(titan)
+    if nape and isValidPart(nape) then
+        local ok, dist = pcall(function() return magnitude(nape.Position - hrp.Position) end)
+        return ok and dist or 99999
+    end
+    return 99999
+end
+
+local function _getTitanPositionXZ(titan)
+    local thrp = getTitanHRP(titan)
+    if thrp then return thrp.Position end
+    local head = getTitanHead(titan)
+    if head then return head.Position end
+    local nape = getNapeFast(titan)
+    return (nape and isValidPart(nape)) and nape.Position or nil
+end
+
+local function _anyTitansExist()
+    local children = titansFolder and titansFolder:GetChildren() or {}
+    for i = 1, #children do
+        if not isTitanDead(children[i]) then return true end
+    end
+    return false
+end
+
+local function getObjectiveText(objectiveName)
+    local interface = getInterface()
+    if not interface then return nil end
+    local hud = interface:FindFirstChild("HUD")
+    if not hud then return nil end
+    local objectives = hud:FindFirstChild("Objectives")
+    if not objectives then return nil end
+    local main = objectives:FindFirstChild("Main")
+    if not main then return nil end
+    local obj = main:FindFirstChild(objectiveName)
+    if not obj then return nil end
+    local txt = safeGetText(obj)
+    if txt then return txt end
+    local descs = obj:GetDescendants()
+    for i = 1, #descs do
+        if descs[i].ClassName == "TextLabel" then
+            txt = safeGetText(descs[i])
+            if txt and txt ~= "" then return txt end
+        end
+    end
+    return nil
+end
+
+local function _isARaidObjective()
+    return getObjectiveText("Defend_Eren") ~= nil
+end
+
+local function isRaidFullyComplete()
+    local txt = getObjectiveText("Defeat_Eren")
+    return txt and stringFind(txt, "1/1") and true or false
+end
+
+local function getAttackTitan()
+    local at = titansFolder and titansFolder:FindFirstChild("Attack_Titan")
+    return (at and at.Parent and not isTitanDead(at)) and at or nil
+end
+
+local function isAttackTitanRoaring()
+    local at = getAttackTitan()
+    if not at then return false end
+    local ok, attr = pcall(function() return at:GetAttribute("Attack") end)
+    return ok and attr == "Roar" or false
+end
+
+local function bringAttackTitanParts(titan)
+    if not titan or not titan.Parent then return end
+    local hrp = getHRP()
+    if not hrp then return end
+    local playerPos = hrp.Position
+    local hb = titan:FindFirstChild("Hitboxes")
+    if not hb then return end
+    local hit = hb:FindFirstChild("Hit")
+    if not hit then return end
+    local partNames = {"Nape", "LeftLeg", "RightLeg", "LeftArm", "RightArm", "Eyes"}
+    for i = 1, 6 do
+        local part = hit:FindFirstChild(partNames[i])
+        if part and part.Parent then
+            pcall(function()
+                part.Position = playerPos + Vector3.new(0, 2, 0)
+                part.Size = Vector3.new(15, 15, 15)
+            end)
+        end
+    end
+end
+
+local function lockCamera()
+    if not isrbxactive() then return end
+    if not cameraLocked then
+        keypress(VK_CTRL)
+        task.wait(0.1)
+        keyrelease(VK_CTRL)
+        task.wait(0.1)
+        cameraLocked = true
+    end
+end
+
+local function enterUINavMode()
+    if not isrbxactive() then return end
+    keypress(VK_HASH)
+    task.wait(0.15)
+    keyrelease(VK_HASH)
+    task.wait(0.5)
+    keypress(VK_BACKSLASH)
+    task.wait(0.15)
+    keyrelease(VK_BACKSLASH)
+    task.wait(0.5)
+end
+
+local function exitUINavMode()
+    if not isrbxactive() then return end
+    keypress(VK_HASH)
+    task.wait(0.15)
+    keyrelease(VK_HASH)
+    task.wait(0.5)
+    keypress(VK_BACKSLASH)
+    task.wait(0.15)
+    keyrelease(VK_BACKSLASH)
+    task.wait(0.5)
+end
+
+local function pressEnter()
+    if not isrbxactive() then return end
+    keypress(VK_ENTER)
+    task.wait(0.15)
+    keyrelease(VK_ENTER)
+    task.wait(0.3)
+end
+
+local function pressRightArrow()
+    if not isrbxactive() then return end
+    keypress(VK_D)
+    task.wait(0.1)
+    keyrelease(VK_D)
+    task.wait(0.2)
+end
+
+local function isSkipVisible()
+    local interface = getInterface()
+    if not interface then return false end
+    local skip = interface:FindFirstChild("Skip")
+    if not skip then return false end
+    local interact = skip:FindFirstChild("Interact")
+    return interact and isElementVisible(interact) or false
+end
+
+local function isRetryVisible()
+    local interface = getInterface()
+    if not interface then return false end
+    local rewards = interface:FindFirstChild("Rewards")
+    if rewards and isElementVisible(rewards) then return true end
+    local retry = interface:FindFirstChild("Retry")
+    return retry and isElementVisible(retry) or false
+end
+
+local function isRewardsVisible()
+    local interface = getInterface()
+    if not interface then return false end
+    local rewards = interface:FindFirstChild("Rewards")
+    return rewards and isElementVisible(rewards) or false
+end
+
+
+local function aimAtPosition(targetPos)
+  --[[
+    if not targetPos then return false end
+    local screenPos = worldToScreen(targetPos)
+    if not screenPos then return false end
+    local vs = Workspace.CurrentCamera and Workspace.CurrentCamera.ViewportSize
+    if not vs then return false end
+    local deltaX = screenPos.X - vs.X / 2
+    local deltaY = screenPos.Y - vs.Y / 2
+    if mathAbs(deltaX) < 5 and mathAbs(deltaY) < 5 then return true end
+    mousemoverel(deltaX * 0.5, deltaY * 0.5)
+    ]]
+    return false
+end
+
+local function aimAtTitan(titan)
+    if not titan or isTitanDead(titan) then return end
+    local head = titan:FindFirstChild("Head")
+    if not head or not head.Parent then return end
+    local hrp = getHRP()
+    if not hrp then return end
+    local ok, headPos, playerPos = pcall(function() return head.Position, hrp.Position end)
+    if not ok then return end
+    local dirX = headPos.X - playerPos.X
+    local dirZ = headPos.Z - playerPos.Z
+    local dist = mathSqrt(dirX * dirX + dirZ * dirZ)
+    if dist > 0 then dirX = dirX / dist; dirZ = dirZ / dist else dirX = 0; dirZ = 1 end
+    aimAtPosition(Vector3.new(headPos.X + dirX * 150, headPos.Y, headPos.Z + dirZ * 150))
+end
+
+local function clickElement(element)
+    if not element then return false end
+    local ok, pos, size = pcall(function() return element.AbsolutePosition, element.AbsoluteSize end)
+    if not ok or not pos or not size then return false end
+    local cx = pos.X + size.X / 2
+    local cy = pos.Y + size.Y / 2
+    mousemoveabs(cx, cy)
+    task.wait(0.2)
+    mouse1click()
+    task.wait(0.1)
+    mouse1click()
+    task.wait(0.1)
+    return true
+end
+
+local function clickChest(chestName)
+    local interface = getInterface()
+    if not interface then return false end
+    local chests = interface:FindFirstChild("Chests")
+    if not chests then return false end
+    local chest = chests:FindFirstChild(chestName)
+    if not chest then return false end
+    m1Active = false
+    task.wait(0.3)
+    return clickElement(chest)
+end
+
+local function clickChestFinish()
+    local interface = getInterface()
+    if not interface then return false end
+    local chests = interface:FindFirstChild("Chests")
+    if not chests then return false end
+    local finish = chests:FindFirstChild("Finish")
+    if not finish then return false end
+    return clickElement(finish)
+end
+
+
+local function tpAboveTitan(titan)
+    local hrp = getHRP()
+    if not hrp then return end
+    local bobHeight = getTitanBobHeight(titan)
+    local bobOffset = mathSin(osClock() * BOB_SPEED * 3.14159 * 2) * BOB_AMPLITUDE
+    local targetPos = nil
+
+    if currentMissionType == "Stall" then
+        local head = getTitanHead(titan)
+        if head then
+            local ok, pos = pcall(function() return head.Position end)
+            if ok then targetPos = pos end
+        end
+    end
+
+    if not targetPos then
+        local thrp = getTitanHRP(titan)
+        if not thrp then return end
+        local ok, pos = pcall(function() return thrp.Position end)
+        if not ok then return end
+        targetPos = pos
+    end
+
+    hrp.Position = Vector3.new(targetPos.X, targetPos.Y + bobHeight + bobOffset, targetPos.Z)
+end
+
+local function bringNapeToPlayer(nape)
+    if not nape or not isValidPart(nape) then return end
+    local hrp = getHRP()
+    if not hrp then return end
+    pcall(function()
+        nape.Position = hrp.Position + Vector3.new(0, 2, 0)
+        nape.Size = Vector3.new(10, 10, 10)
+    end)
+end
+
+local function bringAllNearbyNapes(mainNape, mainTitan)
+    if currentMissionType == "Raid" then return end
+    if not mainNape or not isValidPart(mainNape) then return end
+    local hrp = getHRP()
+    if not hrp then return end
+    local ok, playerPos = pcall(function() return hrp.Position end)
+    if not ok then return end
+    local mainTHRP = getTitanHRP(mainTitan)
+    if not mainTHRP then return end
+    local ok2, mainPos = pcall(function() return mainTHRP.Position end)
+    if not ok2 then return end
+    local children = titansFolder and titansFolder:GetChildren() or {}
+    for i = 1, #children do
+        local titan = children[i]
+        if titan ~= mainTitan and not isTitanDead(titan) then
+            local nape = getNapeFast(titan)
+            if nape and isValidPart(nape) then
+                local thrp = getTitanHRP(titan)
+                if thrp then
+                    local ok3, dist = pcall(function() return magnitude(thrp.Position - mainPos) end)
+                    if ok3 and dist <= NEARBY_NAPE_RADIUS then
+                        pcall(function()
+                            nape.Position = playerPos + Vector3.new(0, 2, 0)
+                            nape.Size = Vector3.new(15, 15, 15)
+                        end)
+                    end
+                end
+            end
+        end
+    end
+end
+
+local function getBestTitan()
+    local attackTitan = getAttackTitan()
+    if attackTitan then
+        currentMissionType = "Raid"
+        raidDetected = true
+        if isAttackTitanRoaring() then return nil, nil end
+        local nape = getNapeFast(attackTitan) or getNape(attackTitan)
+        if nape and isValidPart(nape) then return attackTitan, nape end
+        return nil, nil
+    end
+    local useStallSort = currentMissionType == "Stall"
+    local children = titansFolder and titansFolder:GetChildren() or {}
+    if not useStallSort then
+        for i = 1, #children do
+            local ok, t = pcall(function() return children[i]:GetAttribute("Type") end)
+            if ok and (t == "Colossal" or t == "Stall") then
+                useStallSort = true
+                break
+            end
+        end
+    end
+    local allValid = {}
+    for i = 1, #children do
+        local titan = children[i]
+        if not isTitanDead(titan) then
+            local nape = getNapeFast(titan)
+            if nape and isValidPart(nape) then
+                local dist = getDistanceToTitan(titan)
+                allValid[#allValid + 1] = { titan = titan, nape = nape, distance = dist }
+            end
+        end
+    end
+    if #allValid == 0 then
+        for i = 1, #children do
+            local titan = children[i]
+            if not isTitanDead(titan) then
+                task.wait(0.02)
+                local nape = getNape(titan)
+                if nape and isValidPart(nape) then
+                    local dist = getDistanceToTitan(titan)
+                    allValid[#allValid + 1] = { titan = titan, nape = nape, distance = dist }
+                end
+            end
+        end
+    end
+    if #allValid == 0 then return nil, nil end
+    table.sort(allValid, function(a, b) return a.distance < b.distance end)
+    return allValid[1].titan, allValid[1].nape
+end
+--[[ 
+    Integrated Script: Autofarm + Auto Refill + Auto Retry
+    Game: Attack on Titan Revolution
+]]
+
+
+local PlayerGui = LocalPlayer:WaitForChild("PlayerGui")
+local Workspace = game:GetService("Workspace")
+local HttpService = game:GetService("HttpService")
+
+-- Variables & Cache
+local GasTank
+local ReloadingBlades = false
+local LastReloadingTime = 0
+
+
+-- #region Offset Management
+local function GetOffsets()
+    local ok, res = pcall(function()
+        return game:HttpGet("https://imtheo.lol/Offsets/Offsets.json")
+    end)
+    if not ok or not res then return {} end
+    local success, decoded = pcall(function() return HttpService:JSONDecode(res) end)
+    return success and decoded.Offsets or {}
+end
+
+local Offsets = GetOffsets()
+local PrimaryPartOffset = Offsets.Model and Offsets.Model.PrimaryPart
+local BaseToPrimitiveOffset = Offsets.BasePart and Offsets.BasePart.Primitive
+local PrimitivePositionOffset = Offsets.Primitive and Offsets.Primitive.Position
+local VisibleOffset = Offsets.GuiObject and Offsets.GuiObject.Visible
+
+-- Path Helper
+local function GetPath(root, ...)
+    local current = root
+    for _, name in ipairs({...}) do
+        if not current then return nil end
+        current = current:FindFirstChild(name)
+    end
+    return current
+end
+
+local DownMiddlePartUi = GetPath(PlayerGui, "Interface", "HUD", "Main", "Top", "7")
+-- #endregion
+
+-- #region UI & Retry Logic
+local function IsObjectVisible(object)
+    if not object or not object.Address then return false end
+    local ok, value = pcall(function()
+        return memory_read("byte", object.Address + VisibleOffset)
+    end)
+    return ok and value == 1
+end
+
+local function isRetryVisible()
+    local Path = GetPath(PlayerGui, "Interface", "Rewards")
+    return IsObjectVisible(Path)
+end
+
+local function PressRetry()
+  if not isRetryVisible() then return end
+  task.wait(2) -- Doubled from 1
+  keypress(0xDE); task.wait(0.3); keyrelease(0xDE); task.wait(1.0) -- Doubled hold (0.15 -> 0.3) and gap (0.5 -> 1.0)
+  keypress(0xDC); task.wait(0.3); keyrelease(0xDC); task.wait(1.0) 
+  keypress(0x44); task.wait(0.2); keyrelease(0x44); task.wait(0.4) -- Doubled hold (0.1 -> 0.2) and gap (0.2 -> 0.4)
+  keypress(0x44); task.wait(0.2); keyrelease(0x44); task.wait(0.4) 
+  keypress(0x0D); task.wait(0.3); keyrelease(0x0D); task.wait(0.6) -- Doubled hold (0.15 -> 0.3) and gap (0.3 -> 0.6)
+  keypress(0xDE); task.wait(0.3); keyrelease(0xDE); task.wait(1.0) 
+  keypress(0xDC); task.wait(0.3); keyrelease(0xDC); task.wait(1.0) 
+end
+-- #endregion
+
+-- #region Refill & Blade Logic
+local function AreBladesFullyBroken()
+    local char = LocalPlayer.Character
+    local rig = char and char:FindFirstChild("Rig_" .. LocalPlayer.Name)
+    if not rig then return false end
+    local rh, lh = rig:FindFirstChild("RightHand"), rig:FindFirstChild("LeftHand")
+    local rb, lb = rh and rh:FindFirstChild("Blade_1"), lh and lh:FindFirstChild("Blade_1")
+    if not rb or not lb then return false end
+
+    local ok, broken = pcall(function()
+        local one = memory_read("float", rb.Address + 240)
+        local two = memory_read("float", lb.Address + 240)
+        return (one >= 0.9 and two >= 0.9)
+    end)
+    return ok and broken
+end
+
+local function DoINeedToRefill()
+    if not DownMiddlePartUi then return false end
+    local sets = GetPath(DownMiddlePartUi, "Blades", "Sets")
+    local gas = GetPath(DownMiddlePartUi, "Gas", "Percentage")
+    local bladesVal = sets and tonumber(sets.Text:match("%d+")) or 0
+    local gasVal = gas and tonumber(gas.Text:match("%d+")) or 0
+    return (bladesVal == 0 or gasVal == 0)
+end
+
+local function HandleAllReloads()
+    if not AreBladesFullyBroken() then return end
+    local hrp = LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
+    if not hrp then return end
+
+    if DoINeedToRefill() then
+        while autofarmActive and DoINeedToRefill() do
+            if GasTank then
+                local PartAddr = memory_read("uintptr_t", GasTank.Address + PrimaryPartOffset)
+                local Prim = memory_read("uintptr_t", PartAddr + BaseToPrimitiveOffset)
+                local x = memory_read("float", Prim + PrimitivePositionOffset)
+                local y = memory_read("float", Prim + PrimitivePositionOffset + 4)
+                local z = memory_read("float", Prim + PrimitivePositionOffset + 8)
+
+                hrp.AssemblyLinearVelocity = Vector3.zero
+                hrp.CFrame = CFrame.new(x, y, z)
+                task.wait(0.3)
+                keypress(0x52) task.wait(2) keyrelease(0x52)
+            end
+            task.wait(1)
+        end
+    else
+        if ReloadingBlades or (os.clock() - LastReloadingTime < 3) then return end
+        ReloadingBlades = true
+        LastReloadingTime = os.clock()
+        task.spawn(function()
+            if isrbxactive() then
+                keypress(0x52) task.wait(2) keyrelease(0x52) task.wait(0.5)
+            end
+            ReloadingBlades = false
+        end)
+    end
+end
+-- #endregion
+
+-- #region Main Loop
+local function autofarmLoop()
+    while autofarmActive do
+        pcall(function()
+            local now = os.clock()
+            
+            -- 1. Maintenance & Survival
+            -- Uses the memory-reading HandleAllReloads from your second snippet
+            HandleAllReloads()
+
+            -- 2. Immediate Game-Over Check
+            -- Uses the memory-reading isRetryVisible check
+            if isRetryVisible() then
+                print("Game end detected via memory. Retrying...")
+                PressRetry()
+                task.wait(1) 
+                return -- Restart the loop to handle teleport/reset
+            end
+
+            -- 3. Target Acquisition
+            local titan, nape = getBestTitan()
+            
+            -- 4. Handling "No Titans" (Wait, Raid Completion, or Retry)
+            if not titan or not nape then
+                if not isInLoadingPeriod() then
+                    if not noTitansTime then noTitansTime = now end
+                    
+                    if raidDetected then
+                        -- Logic for Raid Rewards (Chests)
+                        if isRaidFullyComplete() then
+                            if now - noTitansTime >= 1 then
+                                m1Active = false
+                                task.wait(2)
+                                -- Note: Ensure these click functions match your UI paths
+                                clickChest("Free")
+                                task.wait(7)
+                                clickChest("Premium")
+                                task.wait(7)
+                                clickChestFinish()
+                                task.wait(2)
+                                PressRetry() 
+                                noTitansTime = nil
+                            end
+                        else
+                            -- Wait for next wave spawn
+                            if now - noTitansTime >= 2 then
+                                if isSkipVisible() then print("Wave skip available...") end
+                                noTitansTime = now
+                            end
+                        end
+                    else
+                        -- Standard Retry (Map cleared or bugged)
+                        if now - noTitansTime >= 0.5 then
+                            m1Active = false
+                            print("No targets found. Executing retry sequence.")
+                            PressRetry()
+                            noTitansTime = nil
+                        end
+                    end
+                end
+                task.wait(0.5)
+                return
+            end
+
+            -- 5. Combat Initialization
+            noTitansTime = nil
+            local isAttack = titan.Name == "Attack_Titan"
+            currentTargetTitan = titan
+            currentTargetNape = nape
+            
+            if not cameraLocked then lockCamera() end
+            local killsBefore = getKillCount()
+            m1Active = true
+            
+            -- 6. Active Combat Loop
+            while autofarmActive do
+                -- Break if state changes or target is lost
+                if not isrbxactive() or isTitanDead(titan) then break end
+                if AreBladesFullyBroken() then break end 
+                if isRetryVisible() then break end -- Break combat if rewards screen pops up
+
+                -- If kill count increased, we consider the target dead
+                if getKillCount() > killsBefore then
+                    killedTitans[titan] = os.clock()
+                    break
+                end
+                
+                -- Execution logic
+                tpAboveTitan(titan)
+                bringNapeToPlayer(nape)
+                
+                if isAttack then
+                    bringAttackTitanParts(titan)
+                else
+                    bringAllNearbyNapes(nape, titan)
+                end
+
+                if cameraLocked and isrbxactive() then
+                    aimAtTitan(titan)
+                end
+                
+                task.wait() -- Maintain standard refresh rate
+            end
+
+            -- Cleanup after combat
+            m1Active = false
+            currentTargetTitan = nil
+            currentTargetNape = nil
+        end)
+        task.wait(0.05) -- Small delay to prevent CPU spiking
+    end
+end
+-- #endregion
+
+local function toggleAutofarm(enabled)
+    if enabled then
+        if not autofarmActive then
+            autofarmActive = true
+            task.spawn(autofarmLoop)
+        end
+        notify("Autofarm enabled", "Status", 2)
+        if UI.GetValue("debug_mode") then
+            log("Autofarm started", "AUTOFARM")
+        end
+    else
+        autofarmActive = false
+        m1Active = false
+        notify("Autofarm disabled", "Status", 2)
+        if UI.GetValue("debug_mode") then
+            log("Autofarm stopped", "AUTOFARM")
+        end
+    end
+end
+
+-- Monitor autofarm toggle
+task.spawn(function()
+    local lastState = false
+    while true do
+        local currentState = UI.GetValue("autofarm_enabled")
+        if currentState ~= lastState then
+            toggleAutofarm(currentState)
+            lastState = currentState
+        end
+        task.wait(0.05) -- Reduced from 0.1 for faster toggle response
+    end
+end)
+
+task.spawn(function()
+    while true do
+        if m1Active and isrbxactive() then
+            mouse1click()
+            task.wait(0.02)
+            keypress(VK_SPACE)
+            task.wait(0.02)
+            keyrelease(VK_SPACE)
+            task.wait(0.02)
+        else
+            task.wait(0.1)
+        end
+    end
+end)
+
+-- Function to check if hitbox sliders changed
+local function checkForSliderChanges()
+    local ok1, x = pcall(function() return UI.GetValue("hitbox_size_x") end)
+    local ok2, y = pcall(function() return UI.GetValue("hitbox_size_y") end)
+    local ok3, z = pcall(function() return UI.GetValue("hitbox_size_z") end)
+
+    if not ok1 then x = prevHitbox.x end
+    if not ok2 then y = prevHitbox.y end
+    if not ok3 then z = prevHitbox.z end
+
+    if prevHitbox.x == nil then
+        prevHitbox.x, prevHitbox.y, prevHitbox.z = x, y, z
+        return false
+    end
+
+    if x ~= prevHitbox.x or y ~= prevHitbox.y or z ~= prevHitbox.z then
+        prevHitbox.x, prevHitbox.y, prevHitbox.z = x, y, z
+        lastHitboxSize.x = x
+        lastHitboxSize.y = y
+        lastHitboxSize.z = z
+        return true
+    end
+    return false
+end
+
+while true do
+    pcall(function()
+        checkForSliderChanges()
+        updateModifiedTitans()
+        updateTitans()
+    end)
+    task.wait(CONFIG.updateRate)
+end
